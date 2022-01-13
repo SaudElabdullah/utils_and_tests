@@ -49,6 +49,6 @@ void main() {
   ) async {
     await tester.setScreenSize(screenSizeVariants.currentValue!);
     await tester.pumpWidget(const MyApp());
-    expect(find.byKey(const Key('test')), findsNothing);
+    expect(find.byKey(const Key('test')), findsOneWidget);
   }, variant: screenSizeVariants);
 }
