@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 
 class PlatformDetection {
+  PlatformDetection._();
   static bool isDesktop = defaultTargetPlatform == TargetPlatform.windows ||
       defaultTargetPlatform == TargetPlatform.linux ||
       defaultTargetPlatform == TargetPlatform.macOS;
