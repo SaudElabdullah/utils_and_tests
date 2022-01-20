@@ -1,5 +1,21 @@
 import 'package:flutter/widgets.dart';
 
+///How to use: You should first wrap you materialApp with this in order to make it work:
+///return OrientationBuilder(
+///           builder: (context, orientation) {
+///             SizeConfig().init(constraints, orientation);
+///             return MaterialApp(\
+///               home: Scaffold(
+///                 body: SafeArea(
+///                   child: Container(),
+///                 ),
+///               ),
+///             );
+///           },
+///         );
+///       },
+///     );
+
 // ignore: constant_identifier_names
 enum DeviceType { SM, MD, LG }
 
