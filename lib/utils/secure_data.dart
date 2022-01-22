@@ -1,6 +1,6 @@
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
-///This class is to save secure data.
+///This class is to save secure data by using the amazing package flutter_secure_data.
 
 class SecureData {
   //To only have one object.
